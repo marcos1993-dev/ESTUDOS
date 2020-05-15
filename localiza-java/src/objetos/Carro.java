@@ -7,9 +7,6 @@ import java.util.List;
 import status.java.SituacaoVeiculo;
 
 public class Carro {
-
-	
-	
 	private String nome;
 	private String cor;
 	private double motor;
@@ -19,8 +16,7 @@ public class Carro {
 	private double Diaria;
 	
 	List<Marcas> marcList = new ArrayList<Marcas>();
-	
-	
+
 	public List<Marcas> getMarcList() {
 		return marcList;
 	}
@@ -71,20 +67,12 @@ public class Carro {
 	public boolean isAlugado() {
 		return alugado;
 	}
-	
-	
-	
-
 
 	@Override
 	public String toString() {
 		return "Carro [nome=" + nome + ", cor=" + cor + ", motor=" + motor + ", ano=" + ano + ", placa=" + placa
 				+ ", alugado=" + alugado + ", Diaria=" + Diaria + ", marcList=" + marcList + "]";
 	}
-
-	
-	
-	
 
 	@Override
 	public int hashCode() {
@@ -157,13 +145,3 @@ public class Carro {
 		
 	}	
 }
-
-	
-	
-	
-	
-	
-	
-	
-	
-

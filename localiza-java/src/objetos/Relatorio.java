@@ -65,6 +65,4 @@ public class Relatorio {
 	public void adicionarValor(double valor) {
 		this.valor+= valor;
 	}
-	}
-
-
+}
