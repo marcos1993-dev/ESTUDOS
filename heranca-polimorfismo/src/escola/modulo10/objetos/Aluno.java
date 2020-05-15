@@ -85,11 +85,7 @@ public class Aluno extends Pessoa {
 	
 public double calculaMedia() {
 	double media = 0.0;
-	
-	
-		for (Disciplinas disciplinas : dcpl) {
-			
-		
+	for (Disciplinas disciplinas : dcpl) {
 		for(int i=0; i<disciplinas.getNotas().length; i++) {
 			media += disciplinas.getNotas()[i];
 		 }

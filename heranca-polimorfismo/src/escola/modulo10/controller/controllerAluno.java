@@ -42,7 +42,7 @@ public class controllerAluno {
 					dcpls.setMateria(JOptionPane.showInputDialog("informe o nome da matéria "+(i+1)+":"));
 					
 					for (int l=0; l<insereNotas.length; l++) {
-						double notta = Double.parseDouble(JOptionPane.showInputDialog("Informe a nota "+(l+1)+":"));
+						double notta = Double.parseDouble(JOptionPane.showInputDialog("Informe a nota do "+(l+1)+"º bimestre:"));
 						 insereNotas[l] = notta;
 					}
 					       
